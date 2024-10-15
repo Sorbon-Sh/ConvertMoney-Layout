@@ -4,7 +4,9 @@ import arrovUp from "../assets/arrow-up.svg";
 import arrovDown from "../assets/arrow-down.svg";
 
 const ListItems = () => {
-  const someCotergory = ["TAJ", "USD", "UER", "RUB"];
+  type ListData = [string, string, string, string];
+
+  const someCotergory: ListData = ["TAJ", "USD", "UER", "RUB"];
 
   const [openList, setOpenList] = useState<boolean>(false);
 
