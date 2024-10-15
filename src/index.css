@@ -33,12 +33,20 @@ ul {
   transition: 400ms;
 }
 
+form input {
+  width: 32vw;
+}
+
 @media (max-width: 1018px) {
   form {
     flex-direction: column;
   }
 
   form .input__convert {
+    width: 100%;
+  }
+
+  form input {
     width: 100%;
   }
 
