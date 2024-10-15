@@ -46,7 +46,7 @@ const FormLayout = () => {
               type="number"
               value={valueOut}
               placeholder="Enter"
-              className="w-vw-32 py-4 text-2xl outline-none px-3"
+              className=" py-4 text-2xl outline-none px-3"
               {...register("enter")}
             />
           </div>
@@ -72,7 +72,7 @@ const FormLayout = () => {
               type="number"
               value={valueEnter}
               placeholder="Out"
-              className="w-vw-32 py-4 text-2xl outline-none px-3"
+              className=" py-4 text-2xl outline-none px-3"
               {...register("out")}
             />
           </div>
